@@ -1,6 +1,8 @@
 TEX 	= xelatex
-doc  = linear_algebra
-source = $(doc).tex
+doc  =linear_algebra
+source = linear_algebra.tex\
+ch1.tex\
+ch2.tex	
 pdf = $(doc).pdf
 VIEW_PDF = open
 all: $(pdf)
