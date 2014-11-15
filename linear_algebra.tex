@@ -10,6 +10,8 @@
 
 \usepackage{amsmath}
 \usepackage{cases}
+\usepackage{zhspacing}
+
 \title{线性代数}
 \begin{document}
 \begin{titlepage} %%封面
@@ -22,8 +24,14 @@
 \centerline{\LARGE 线性代数}
 \end{titlepage}
 %%\maketitle
+\thispagestyle{empty}
+\newpage  
 \tableofcontents
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
 \include{ch1}
 \include{ch2}
+
 
 \end{document}
